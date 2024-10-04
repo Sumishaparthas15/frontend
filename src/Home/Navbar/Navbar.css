@@ -1,0 +1,68 @@
+/* Navbar container */
+.navbar {
+    position: fixed; /* Ensures the navbar stays at the top */
+    display: flex;
+    justify-content: space-between; /* Space between left and right items */
+    align-items: center; /* Center items vertically */
+    background-color: rgb(40, 155, 145); /* Background color */
+    color: aqua; /* Text color */
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    padding: 0 20px; /* Padding on left and right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Navbar logo styling */
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Center items within the navbar */
+.navbar-center {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    flex-grow: 1; /* Allow center items to grow and fill space */
+}
+
+/* Navbar item styling */
+.navbar-item {
+    margin: 0 15px; /* Horizontal spacing between items */
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hover effect for navbar items */
+.navbar-item:hover {
+    text-decoration: underline;
+}
+
+/* Right side items (e.g., signup button) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Signup button styling */
+.navbar-signup {
+    background-color: rgb(40, 155, 145); /* Match the navbar background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Hover effect for signup button */
+.navbar-signup:hover {
+    background-color: white;
+    color: rgb(40, 155, 145);
+}
+.back {
+    position: fixed; 
+}

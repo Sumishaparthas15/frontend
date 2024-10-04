@@ -1,0 +1,98 @@
+ .department-container {
+    padding: 50px;
+  }
+   
+   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+   
+  .header h1 {
+    margin-left:520px;
+  }
+  
+  .add-button {
+    background-color: #20a8a6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-button:hover {
+    opacity: 0.8;
+  }
+  
+  .department-cards {
+    display: flex;
+    margin-left: 250px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .department-card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .department-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .department-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .edit-button i,
+  .delete-button i {
+    pointer-events: none; /* Ensure the click event is on the button */
+  }
+
+
+  /* HospitalDepartments.css */
+
+/* Styles for the modal */
+.modal {
+/* Add these styles to HospitalDepartments.css */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+}

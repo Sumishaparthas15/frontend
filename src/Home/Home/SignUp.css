@@ -1,0 +1,10 @@
+.signupdiv{
+    margin-left: 430px;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    border-width:1px;
+    /* border-style:solid; */
+    border-color:grey;
+    border-radius: 10px;
+}

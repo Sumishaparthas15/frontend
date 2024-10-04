@@ -1,0 +1,60 @@
+.logindiv{
+    margin-left: 430px;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    border-width:1px;
+    /* border-style:solid; */
+    border-color:grey;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+}
+
+.loginbtn{
+    margin-left: 200px;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #15b6b6;
+    border-color: #15b6b6;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+    .loginbtn:hover {
+        color: #fff;
+        background-color: #20aa9a;
+        border-color: #29e1d7;
+    }
+.loginbtn1 {
+        margin-left: 170px;
+        cursor: pointer;
+        outline: 0;
+        color: rgb(117, 111, 111);/* Text color */
+        background-color: transparent; /* Background color set to transparent */
+        border-color: #15b6b6; /* Border color remains the same */
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        border: 1px solid #15b6b6; /* Border is now visible with color #15b6b6 */
+        padding: 6px 12px;
+        font-size: 16px;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    
+    .loginbtn1:hover {
+        color: #15b6b6; /* Change text color on hover */
+        background-color: rgba(21, 182, 182, 0.1); /* Slightly visible background on hover */
+        border-color: #15b6b6; /* Border color on hover remains the same */
+    }
+    

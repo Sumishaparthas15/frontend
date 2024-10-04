@@ -1,0 +1,154 @@
+/* HospitalRequests.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .table-container {
+    max-width: 1000px;
+    width: 10%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-left: 340px;
+  }
+  table, th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  thead {
+    background-color: #24a9b3;
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 10px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+
+
+/* HospitalDetails.css */
+.hospital-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hospital-details-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.hospital-details-table td, .hospital-details-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.hospital-details-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.hospital-details-table th {
+  padding: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.hospital-photo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Centering the departments container with margin-left adjustment */
+.departments-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 400px; /* Move the container 400px to the right */
+}
+
+/* Styling each department card with increased size */
+.department-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* Increase padding for more space inside the card */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Set a fixed width for the card */
+  height: 200px; /* Set a fixed height for the card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure the image fits well within the card */
+.department-card img {
+  border-radius: 8px;
+  max-width: 100%; /* Ensure image does not exceed card width */
+  height: 200px;
+  max-height: 150px;
+  width: 200px; /* Limit height of the image */
+}
+
